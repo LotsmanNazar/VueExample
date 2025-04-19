@@ -23,8 +23,6 @@ export function selectionData(contextWordsCount = 5): SelectionDataType {
 		return data;
 	}
 
-	
-
 	if ( selectionRange.endContainer.nodeType !== Node.TEXT_NODE ) {
 		return data;
 	}
